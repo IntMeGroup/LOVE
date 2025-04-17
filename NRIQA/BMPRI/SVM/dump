@@ -1,0 +1,4 @@
+Prob. model for test data: target value = predicted value + z,
+z: Laplace distribution e^(-|z|/sigma)/(2sigma),sigma=6.5455
+Mean squared error = 1565.13 (regression)
+Squared correlation coefficient = -nan(ind) (regression)
