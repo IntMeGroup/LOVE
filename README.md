@@ -49,12 +49,12 @@ huggingface-cli download anonymousdb/AIGVE-60K/data --repo-type dataset --local-
 for stage1 training (Text-based quality levels)
 
 ```
-sh shell/train_stage1.sh
+sh shell/st1_train.sh
 ```
 for stage2 training (Fine-tuning the vision encoder and LLM with LoRA)
 
 ```
-sh shell/train_stage2.sh
+sh shell/st2_train.sh
 ```
 
 for quastion-answering training (QA)
@@ -73,7 +73,7 @@ huggingface-cli download anonymousdb/LOVE-QA --local-dir ./weights/qa
 for [perception](https://huggingface.co/anonymousdb/LOVE-Perception) and [correspondence](https://huggingface.co/anonymousdb/LOVE-Correspondence) score evaluation (Scores)
 
 ```
-sh shell/eval_scores.sh
+sh shell/eval_score.sh
 ```
 
 for [quastion-answering](https://huggingface.co/IntMeGroup/LMM4LMM-QA) evaluation (QA)
