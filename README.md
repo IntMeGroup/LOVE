@@ -82,6 +82,58 @@ for [quastion-answering](https://huggingface.co/anonymousdb/LOVE-QA) evaluation 
 ```
 sh shell/eval_qa.sh
 ```
+# 🎥 Text-to-Video (T2V) Generation Models
+
+This section lists 30 representative T2V generation models, including both **commercial close-source models** and **open-source lab models**, with links to their official or GitHub pages.
+
+---
+
+## ♠️ Close-Source Commercial T2V Models
+
+| Model | URL |
+|-------|-----|
+| **Pixverse** | [https://pixverse.ai/](https://pixverse.ai/) |
+| **Wanxiang** | [https://tongyi.aliyun.com/wanxiang/](https://tongyi.aliyun.com/wanxiang/) |
+| **Hailuo** | [https://hailuoai.video/](https://hailuoai.video/) |
+| **Jimeng** | [https://jimeng.jianying.com/](https://jimeng.jianying.com/) |
+| **Sora** | [https://openai.com/research/video-generation-models-as-world-simulators](https://openai.com/research/video-generation-models-as-world-simulators) |
+| **Hunyuan** | [https://aivideo.hunyuan.tencent.com/](https://aivideo.hunyuan.tencent.com/) |
+| **Vidu1.5** | [https://www.vidu.studio/zh](https://www.vidu.studio/zh) |
+| **Gen3** | [https://runwayml.com/research/introducing-gen-3-alpha](https://runwayml.com/research/introducing-gen-3-alpha) |
+| **Kling** | [https://klingai.io/](https://klingai.io/) |
+| **Genmo** | [https://www.genmo.ai](https://www.genmo.ai) |
+| **ChatGLM** | [https://chatglm.cn/video?lang=zh](https://chatglm.cn/video?lang=zh) |
+| **Xunfei** | [https://typemovie.art/](https://typemovie.art/) |
+
+---
+
+## ❤️ Open-Source Lab T2V Models
+
+| Model | URL |
+|-------|-----|
+| **Pyramid** | [https://github.com/jy0205/Pyramid-Flow](https://github.com/jy0205/Pyramid-Flow) |
+| **Wan2.1** | [https://github.com/FoundationVision/LlamaGen](https://github.com/FoundationVision/LlamaGen) |
+| **Allegro** | [https://github.com/rhymes-ai/Allegro](https://github.com/rhymes-ai/Allegro) |
+| **VideoCrafter2** | [https://github.com/AILab-CVC/VideoCrafter](https://github.com/AILab-CVC/VideoCrafter) |
+| **CogVideo X1.5** | [https://github.com/THUDM/CogVideo](https://github.com/THUDM/CogVideo) |
+| **Animate** | [https://github.com/aigc-apps/EasyAnimate](https://github.com/aigc-apps/EasyAnimate) |
+| **Lavie** | [https://github.com/Vchitect/LaVie](https://github.com/Vchitect/LaVie) |
+| **Hotshot-XL** | [https://github.com/hotshotco/Hotshot-XL](https://github.com/hotshotco/Hotshot-XL) |
+| **Latte** | [https://github.com/Vchitect/Latte](https://github.com/Vchitect/Latte) |
+| **VideoCrafter1** | [https://github.com/AILab-CVC/VideoCrafter](https://github.com/AILab-CVC/VideoCrafter) |
+| **Text2Video-Zero** | [https://github.com/Picsart-AI-Research/Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero) |
+| **NOVA** | [https://github.com/baaivision/NOVA](https://github.com/baaivision/NOVA) |
+| **ModelScope** | [https://github.com/modelscope/modelscope](https://github.com/modelscope/modelscope) |
+| **Tune-A-Video** | [https://github.com/showlab/Tune-A-Video](https://github.com/showlab/Tune-A-Video) |
+| **LTX** | [https://github.com/Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) |
+| **LVDM** | [https://github.com/YingqingHe/LVDM](https://github.com/YingqingHe/LVDM) |
+| **ZeroScope** | [https://huggingface.co/cerspense/zeroscope_v2_XL](https://huggingface.co/cerspense/zeroscope_v2_XL) |
+| **LWM** | [https://github.com/LargeWorldModel/LWM](https://github.com/LargeWorldModel/LWM) |
+
+---
+
+*Note: \textsuperscript{$\dag$} indicates representative values (e.g., resolution, frame rate) that are optional or variable depending on the use case.*
+
 
 
 # 📊 V2T Interpretation Model Collection
@@ -110,7 +162,7 @@ videobench.m
 
 | Category | Method | URL |
 |----------|--------|-----|
-| ♣️ | **VSFA** [[paper]](https://arxiv.org/abs/1908.02463) | [GitHub](https://github.com/lidq92/VSFA) |
+| ♣️ | **VSFA** | [GitHub](https://github.com/lidq92/VSFA) |
 | ♣️ | **BVQA** | [GitHub](https://github.com/vztu/BVQA_Benchmark) |
 | ♣️ | **SimpleVQA** | [GitHub](https://github.com/Raykshj/SimpleVQA) |
 | ♣️ | **FAST-VQA** | [GitHub](https://github.com/VQAssessment/FAST-VQA-and-FasterVQA) |
