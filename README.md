@@ -78,7 +78,7 @@ for [perception](https://huggingface.co/anonymousdb/LOVE-Perception) and [corres
 sh shell/eval_score.sh
 ```
 
-for [quastion-answering](https://huggingface.co/IntMeGroup/LMM4LMM-QA) evaluation (QA)
+for [quastion-answering](https://huggingface.co/anonymousdb/LOVE-QA) evaluation (QA)
 ```
 sh shell/eval_qa.sh
 ```
@@ -87,5 +87,5 @@ sh shell/eval_qa.sh
 ## 📌 TODO
 - ✅ Release the training code 
 - ✅ Release the evaluation code 
-- ✅ Release the EvalMi-50K Database
+- ✅ Release the AIGVE-60K Database
 
