@@ -75,7 +75,8 @@ python setup.py install
 ### 📁 Prepare dataset
 
 ```bash
-huggingface-cli download anonymousdb/AIGVE-60K/data --repo-type dataset --local-dir ./data
+huggingface-cli download anonymousdb/AIGVE-60K/data.zip --repo-type dataset --local-dir ./
+unzip data.zip -d ./data
 ```
 
 ### 📈 Stage 1: Text-based quality training
