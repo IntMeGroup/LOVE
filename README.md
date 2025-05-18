@@ -89,6 +89,77 @@ run:
 ```
 videobench.m
 ```
+# 📊 V2T Interpretation Model Collection
+
+This repository provides a comprehensive list of **30 Vision-to-Text (V2T) interpretation models**, covering traditional video quality assessment models, learning-based image-text alignment models, large multimodal models (LMMs), and proprietary foundation models. Each method is annotated with its category and accompanied by a corresponding GitHub or official URL.
+
+---
+
+## 🧭 Categories
+
+- ♣️ Classical VQA Models  
+- ❤️ Learning-based Scoring Models  
+- ⭐ Large Multimodal Models (LMMs)  
+- 🔺 Proprietary Foundation Models (Closed-source)
+
+---
+
+## 📚 Model List and URLs
+
+| Category | Method | URL |
+|----------|--------|-----|
+| ♣️ | **VSFA** [[paper]](https://arxiv.org/abs/1908.02463) | [GitHub](https://github.com/lidq92/VSFA) |
+| ♣️ | **BVQA** | [GitHub](https://github.com/vztu/BVQA_Benchmark) |
+| ♣️ | **SimpleVQA** | [GitHub](https://github.com/Raykshj/SimpleVQA) |
+| ♣️ | **FAST-VQA** | [GitHub](https://github.com/VQAssessment/FAST-VQA-and-FasterVQA) |
+| ♣️ | **DOVER** | [GitHub](https://github.com/VQAssessment/DOVER) |
+| ❤️ | **CLIPScore** | [GitHub](https://github.com/jmhessel/clipscore) |
+| ❤️ | **BLIPScore** | [GitHub](https://github.com/salesforce/BLIP) |
+| ❤️ | **AestheticScore** | [GitHub](https://github.com/sorekdj60/AestheticScore) |
+| ❤️ | **ImageReward** | [GitHub](https://github.com/THUDM/ImageReward) |
+| ❤️ | **PickScore** | [GitHub](https://github.com/yuvalkirstain/PickScore) |
+| ❤️ | **HPSv2** | [GitHub](https://github.com/tgxs002/HPSv2) |
+| ❤️ | **VQAScore** | [GitHub](https://github.com/linzhiqiu/t2v_metrics) |
+| ❤️ | **FGA-BLIP2** | [GitHub](https://github.com/DYEvaLab/EvalMuse) |
+| ⭐ | **DeepSeek-VL2** | [GitHub](https://github.com/deepseek-ai/DeepSeek-V2) |
+| ⭐ | **Video-LLaVA** | [GitHub](https://github.com/PKU-YuanGroup/Video-LLaVA) |
+| ⭐ | **VideoLLaMA3** | [GitHub](https://github.com/DAMO-NLP-SG/VideoLLaMA3) |
+| ⭐ | **mPLUG-OWL3** | [GitHub](https://github.com/X-PLUG/mPLUG-Owl) |
+| ⭐ | **Qwen2.5-VL** | [GitHub](https://github.com/QwenLM/Qwen2.5-VL) |
+| ⭐ | **LLaMA-3.2-Vision** | [HuggingFace](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision) |
+| ⭐ | **CogAgent** | [GitHub](https://github.com/THUDM/CogAgent) |
+| ⭐ | **LLaVA-NeXT** | [GitHub](https://github.com/LLaVA-VL/LLaVA-NeXT) |
+| ⭐ | **InternVideo2.5** | [GitHub](https://github.com/OpenGVLab/InternVideo) |
+| ⭐ | **InternVL** | [GitHub](https://github.com/OpenGVLab/InternVL) |
+| 🔺 | **Gemini 1.5 Pro** | [Official](https://gemini.google.com) |
+| 🔺 | **Claude 3.5** | [Official](https://claude.ai) |
+| 🔺 | **Grok2 Vision** | [Official](https://grok.com) |
+| 🔺 | **ChatGPT-4o** | [Official](https://chatgpt.com) |
+
+---
+
+## 📌 Citation Notice
+
+If you use this list or part of the benchmark in your research, please consider citing the original papers listed above.
+
+---
+
+## 🔧 Contributions
+
+If you'd like to contribute a new model, open an issue or submit a pull request with:
+
+- Model name
+- URL (GitHub or official site)
+- Paper reference (if available)
+- Category suggestion
+
+---
+
+## ⭐ Acknowledgements
+
+Thanks to the original authors of all the models listed here. This is a curated list intended to help researchers and developers in the **V2T interpretation** and **multimodal quality assessment** communities.
+
+
 
 ## 📌 TODO
 - ✅ Release the training code 
