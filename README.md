@@ -1,4 +1,4 @@
-<div align="center">
+ 全部<div align="center">
 
 <h1>❤️ LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation</h1>
 
@@ -193,14 +193,17 @@ sh shell/eval_score.sh
 ```bash
 sh shell/eval_qa.sh
 ```
-## 🏆 V2T Interpretation Model Leaderboard 
+# 🏆 V2T Interpretation Model Leaderboard 
 
 This leaderboard presents the performance of 48 models on the **AIGVE-60K** benchmark, evaluating across three key dimensions:  
-- **Perception Quality** (Instance-level SRCC)  
-- **Text-to-Video Correspondence** (Instance-level SRCC)  
-- **Question Answering Accuracy**
-
+- 🎨 **Perception SRCC**: Spearman correlation of perceptual quality.
+- 🔄 **Correspondence SRCC**: Spearman correlation of text-to-video alignment.
+- ❓ **QA Accuracy**: Accuracy of question answering.
+  
 Final **Overall Rank** is computed by summing the individual ranks across these three dimensions.
+The **top 3 models** are marked with 🥇🥈🥉. All model names are bolded for clarity.
+
+## 🏆 V2T Instance-Level Performance Leaderboard
 
 | 🏆 Rank | Method | Perception SRCC | 🔗 Rank | Correspondence SRCC | 🔗 Rank | QA Acc (%) | 🔗 Rank |
 |--------|--------|------------------|--------|----------------------|--------|-------------|--------|
@@ -253,6 +256,59 @@ Final **Overall Rank** is computed by summing the individual ranks across these 
 | 47 | **Llama3.2-Vision (11B)** | 0.0940 | 47 | 0.0804 | 47 | 62.19 | 40 |
 | 48 | **DeepseekVL2 (1B)** | 0.0121 | 48 | 0.0173 | 48 | 39.29 | 48 |
 
+---
+## 🏆 V2T Model-Level Performance Leaderboard
+
+| 🏆 Rank | Method | Perception SRCC | 🔗 Rank | Correspondence SRCC | 🔗 Rank | QA Acc (%) | 🔗 Rank |
+|--------|--------|------------------|--------|----------------------|--------|-------------|--------|
+| 🥇 | **LOVE (Ours)** | 0.9324 | 1 | 0.9778 | 1 | 0.98 | 1 |
+| 🥈 | **InternVL2.5 (38B)** | 0.9052 | 3 | 0.9586 | 2 | 0.95 | 6 |
+| 🥉 | **InternVL3 (72B)** | 0.8923 | 7 | 0.9444 | 8 | 0.96 | 2 |
+| 4 | **Grok2 Vision** | 0.8808 | 10 | 0.9546 | 4 | 0.95 | 5 |
+| 5 | **InternVL2.5 (72B)** | 0.8843 | 9 | 0.9542 | 5 | 0.94 | 7 |
+| 6 | **FGA-BLIP2** | 0.8954 | 5 | 0.9502 | 6 | 0.94 | 10 |
+| 7 | **ChatGPT-4o** | 0.9048 | 4 | 0.9458 | 7 | 0.93 | 11 |
+| 8 | **Gemini1.5-pro** | 0.8790 | 11 | 0.9430 | 10 | 0.95 | 4 |
+| 9 | **VideoLlama3 (8B)** | 0.9073 | 2 | 0.9075 | 16 | 0.82 | 19 |
+| 10 | **InternVL3 (38B)** | 0.8118 | 20 | 0.9439 | 9 | 0.94 | 9 |
+| 11 | **Qwen2.5-VL (72B)** | 0.7762 | 28 | 0.9364 | 13 | 0.95 | 3 |
+| 12 | **Qwen2-VL (72B)** | 0.8388 | 16 | 0.9271 | 15 | 0.91 | 14 |
+| 13 | **FAST-VQA** | 0.8945 | 6 | 0.8376 | 20 | 0.81 | 20 |
+| 14 | **LLaVA-NeXT (8B)** | 0.8785 | 12 | 0.8042 | 23 | 0.92 | 12 |
+| 15 | **mPLUG-Owl3 (7B)** | 0.7962 | 24 | 0.9310 | 14 | 0.89 | 15 |
+| 16 | **InternVL3 (9B)** | 0.8300 | 17 | 0.9373 | 12 | 0.77 | 25 |
+| 17 | **Claude3.5** | 0.7602 | 30 | 0.8919 | 17 | 0.94 | 8 |
+| 18 | **InternVL2.5 (8B)** | 0.7882 | 25 | 0.9390 | 11 | 0.81 | 21 |
+| 19 | **Llava-one-vision (72B)** | 0.7829 | 27 | 0.8741 | 18 | 0.91 | 13 |
+| 20 | **DOVER** | 0.8874 | 8 | 0.8038 | 24 | 0.77 | 26 |
+| 21 | **ImageReward** | 0.8016 | 23 | 0.8549 | 19 | 0.86 | 17 |
+| 22 | **InternVideo2.5 (8B)** | 0.3361 | 44 | 0.9560 | 3 | 0.84 | 18 |
+| 23 | **NIQE** | 0.8412 | 15 | 0.7838 | 26 | 0.76 | 27 |
+| 24 | **PickScore** | 0.8198 | 18 | 0.7775 | 28 | 0.78 | 22 |
+| 25 | **HOSA** | 0.8456 | 14 | 0.7780 | 27 | 0.76 | 28 |
+| 26 | **Qwen2.5-VL (7B)** | 0.8652 | 13 | 0.8167 | 22 | 0.67 | 36 |
+| 27 | **Qwen2-VL (7B)** | 0.7085 | 33 | 0.7953 | 25 | 0.87 | 16 |
+| 28 | **QAC** | 0.8100 | 21 | 0.7717 | 29 | 0.75 | 30 |
+| 29 | **BRISQUE** | 0.8131 | 19 | 0.7615 | 30 | 0.74 | 31 |
+| 30 | **HPSv2** | 0.7504 | 32 | 0.7522 | 31 | 0.78 | 23 |
+| 31 | **CogAgent (18B)** | 0.4834 | 41 | 0.8198 | 21 | 0.78 | 24 |
+| 32 | **SimpleVQA** | 0.8038 | 22 | 0.7273 | 33 | 0.69 | 34 |
+| 33 | **BMPRI** | 0.7878 | 26 | 0.7321 | 32 | 0.70 | 33 |
+| 34 | **V-Aesthetic Quality** | 0.7740 | 29 | 0.7273 | 33 | 0.70 | 32 |
+| 35 | **AestheticScore** | 0.7566 | 31 | 0.7001 | 35 | 0.67 | 35 |
+| 36 | **VideoLlava (7B)** | 0.6125 | 37 | 0.6406 | 36 | 0.75 | 29 |
+| 37 | **V-Temporal Flickering** | 0.6396 | 34 | 0.5778 | 38 | 0.58 | 38 |
+| 38 | **VSFA** | 0.6227 | 36 | 0.5858 | 37 | 0.52 | 39 |
+| 39 | **BPRI** | 0.6356 | 35 | 0.5324 | 39 | 0.47 | 41 |
+| 40 | **BVQA** | 0.5030 | 39 | 0.4674 | 41 | 0.48 | 40 |
+| 41 | **V-Imaging Quality** | 0.5426 | 38 | 0.4986 | 40 | 0.44 | 43 |
+| 42 | **V-Subject Consistency** | 0.4839 | 40 | 0.4416 | 42 | 0.45 | 42 |
+| 43 | **Llama3.2-Vision (11B)** | 0.4483 | 42 | 0.2783 | 46 | 0.60 | 37 |
+| 44 | **VQAScore** | 0.3437 | 43 | 0.3922 | 43 | 0.33 | 46 |
+| 45 | **BLIPScore** | 0.2111 | 45 | 0.3451 | 44 | 0.38 | 44 |
+| 46 | **V-Overall Consistency** | 0.1742 | 46 | 0.3201 | 45 | 0.34 | 45 |
+| 47 | **CLIPScore** | 0.0300 | 48 | 0.1408 | 47 | 0.17 | 47 |
+| 48 | **DeepseekVL2 (1B)** | 0.0607 | 47 | 0.0785 | 48 | 0.10 | 48 |
 
 
 ---
