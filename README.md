@@ -106,8 +106,8 @@ huggingface-cli download anonymousdb/LOVE-QA --local-dir ./weights/qa
 
 ### 📈 Evaluate perception & correspondence scores
 
-[LOVE-Perception](https://huggingface.co/anonymousdb/LOVE-Perception)  
-[LOVE-Correspondence](https://huggingface.co/anonymousdb/LOVE-Correspondence)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Perception-orange)](https://huggingface.co/anonymousdb/LOVE-Perception)  
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Correspondence-blue)](https://huggingface.co/anonymousdb/LOVE-Correspondence)
 
 ```bash
 sh shell/eval_score.sh
