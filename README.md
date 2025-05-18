@@ -1,46 +1,70 @@
-# 
+# ❤️ LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation
 
 <div align="center">
-   <h1>❤️LOVE：Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation</h1>
-   <i>How to evaluate Text to Video Generation Model properly?</i>
-   <div>
-      <a href="https://huggingface.co/datasets/anonymousdb/AIGVE-60K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green"></a>
-   </div>
+
+<h3>💡 How to evaluate Text-to-Video Generation Models properly?</h3>
+
+<a href="https://huggingface.co/datasets/anonymousdb/AIGVE-60K">
+   <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green" alt="Hugging Face Dataset Badge"/>
+</a>
+
 </div>
-<img width="1000" alt="LOVE" src="https://github.com/user-attachments/assets/20901a3b-68e8-4b65-89b1-acbe38ae7165" />
 
+<p align="center">
+  <img width="1000" alt="LOVE" src="https://github.com/user-attachments/assets/20901a3b-68e8-4b65-89b1-acbe38ae7165" />
+</p>
 
-## <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="27"/> AIGVE-60K Download
- <a href="https://huggingface.co/datasets/anonymousdb/AIGVE-60K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green"></a>
-```
+---
+
+## 🤗 AIGVE-60K Download
+
+[![🤗 Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green)](https://huggingface.co/datasets/anonymousdb/AIGVE-60K)
+
+Download with CLI:
+
+```bash
 huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir ./AIGVE-60K
 ```
-## 🛠️ Installation
 
-Clone this repository:
-```
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
 git clone https://github.com/IntMeGroup/LOVE.git
 ```
-Create a conda virtual environment and activate it:
-```
+
+Create and activate a conda environment:
+
+```bash
 conda create -n LOVE python=3.9 -y
 conda activate LOVE
 ```
-Install dependencies using requirements.txt:
-```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
-Install flash-attn==2.3.6
-```
+
+Install `flash-attn==2.3.6` (pre-built):
+
+```bash
 pip install flash-attn==2.3.6 --no-build-isolation
 ```
-Alternatively you can compile from source:
-```
+
+Or compile from source:
+
+```bash
 git clone https://github.com/Dao-AILab/flash-attention.git
 cd flash-attention
 git checkout v2.3.6
 python setup.py install
 ```
+
+---
 
 ## 🌈 Training
 Preparation
