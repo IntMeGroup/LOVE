@@ -66,46 +66,62 @@ python setup.py install
 
 ---
 
-## 🌈 Training
-Preparation
-```
+## 🚀 Training
+
+### 📁 Prepare dataset
+
+```bash
 huggingface-cli download anonymousdb/AIGVE-60K/data --repo-type dataset --local-dir ./data
 ```
 
-for stage1 training (Text-based quality levels)
+### 📈 Stage 1: Text-based quality training
 
-```
+```bash
 sh shell/st1_train.sh
 ```
-for stage2 training (Fine-tuning the vision encoder and LLM with LoRA)
 
-```
+### 🎨 Stage 2: Fine-tune vision encoder and LLM with LoRA
+
+```bash
 sh shell/st2_train.sh
 ```
 
-for quastion-answering training (QA)
-```
+### ❓ Question-Answering (QA) Training
+
+```bash
 sh shell/train_qa.sh
 ```
 
-## 🌈 Evaluation
-Download the pretrained weights
-```
+---
+
+## 🧪 Evaluation
+
+### 📦 Download pretrained weights
+
+```bash
 huggingface-cli download anonymousdb/LOVE-Perception --local-dir ./weights/stage2/stage2_mos1
 huggingface-cli download anonymousdb/LOVE-Correspondence --local-dir ./weights/stage2/stage2_mos2
 huggingface-cli download anonymousdb/LOVE-QA --local-dir ./weights/qa
 ```
 
-for [perception](https://huggingface.co/anonymousdb/LOVE-Perception) and [correspondence](https://huggingface.co/anonymousdb/LOVE-Correspondence) score evaluation (Scores)
+### 📈 Evaluate perception & correspondence scores
 
-```
+[LOVE-Perception](https://huggingface.co/anonymousdb/LOVE-Perception)  
+[LOVE-Correspondence](https://huggingface.co/anonymousdb/LOVE-Correspondence)
+
+```bash
 sh shell/eval_score.sh
 ```
 
-for [quastion-answering](https://huggingface.co/anonymousdb/LOVE-QA) evaluation (QA)
-```
+### ❓ Evaluate question-answering
+
+[LOVE-QA](https://huggingface.co/anonymousdb/LOVE-QA)
+
+```bash
 sh shell/eval_qa.sh
 ```
+
+---
 # 🎥 Text-to-Video (T2V) Generation Models
 
 This section lists 30 representative T2V generation models, including both **commercial close-source models** and **open-source lab models**, with links to their official or GitHub pages.
