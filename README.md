@@ -40,13 +40,15 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 ## 🏆 T2V Generation Model Leaderboard 
 
 This leaderboard presents the performance of 30 models on the **AIGVE-60K** benchmark, evaluating across three key dimensions:  
-- **Perception Quality** 
-- **Text-to-Video Correspondence**  
-- **Question Answering Accuracy**
+- 🎨 **Perceptual Quality** 
+- 🔄 **Text-to-Video Correspondence**  
+- ❓ **Task-specific Accuracy**
 
 Final **Overall Rank** is computed by summing the individual ranks across these three dimensions.
-|   Overall Rank | Model                                                                           |   Perception |   Perception Rank |   Correspondence |   Correspondence Rank |   TaskAccuracy |   TaskAccuracy Rank |
-|---------------:|:--------------------------------------------------------------------------------|-------------:|------------------:|-----------------:|----------------------:|---------------:|--------------------:|
+The **top 3 models** are marked with 🥇🥈🥉. All model names are bolded for clarity.
+| 🏆 Overall Rank | Model | 🎨 Perception SRCC | 🔗 Rank | 🔄 Correspondence SRCC | 🔗 Rank | ❓ Task-specific Accuracy (%) | 🔗 Rank |
+|----------------|-------|--------------------|--------|------------------------|--------|--------------------|--------|
+
 |              1 | 🥇 [Pixverse](https://pixverse.ai/)                                             |        63.81 |                 2 |            59.97 |                     2 |          91.33 |                   1 |
 |              2 | 🥈 [Wanxiang](https://tongyi.aliyun.com/wanxiang/)                              |        60.54 |                 7 |            60.37 |                     1 |          90.33 |                   2 |
 |              3 | 🥉 [Hailuo](https://hailuoai.video/)                                            |        60.58 |                 5 |            59.74 |                     3 |          87.67 |                   3 |
