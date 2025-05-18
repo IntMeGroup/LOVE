@@ -70,7 +70,7 @@ python setup.py install
 
 ---
 
-## 🚀 Training
+## 🔧 Preparation
 
 ### 📁 Prepare dataset
 
@@ -78,12 +78,18 @@ python setup.py install
 huggingface-cli download anonymousdb/AIGVE-60K data.zip --repo-type dataset --local-dir ./
 unzip data.zip -d ./data
 ```
-### 📁 Prepare model weights
+### 📦 Prepare model weights
 
 ```bash
 huggingface-cli download OpenGVLab/InternVL3-9B --local_dir OpenGVLab/InternVL3-9B
 huggingface-cli download anonymousdb/LOVE-pretrain temporal.pth ./
 ```
+
+---
+
+## 🚀 Training
+
+
 
 
 ### 📈 Stage 1: Text-based quality training
