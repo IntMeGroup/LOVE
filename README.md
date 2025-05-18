@@ -38,7 +38,7 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 
 
 ---
-| Model           |   Perception Score |   Rank |
+| Model           |   Perception MOS |   Rank |
 |:----------------|----------------:|-------:|
 | Jimeng          |           65.25 |      1 |
 | Pixverse        |           63.81 |      2 |
@@ -70,6 +70,46 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 | LVDM            |           33.84 |     28 |
 | ZeroScope       |           30.08 |     29 |
 | LWM             |           27.39 |     30 |
+
+| Model           |   Correspondence MOS |   Rank |
+|:----------------|----------------:|-------:|
+| Wanxiang        |           60.37 |      1 |
+| Pixverse        |           59.97 |      2 |
+| Hailuo          |           59.74 |      3 |
+| Sora            |           59.68 |      4 |
+| Vidu1.5         |           58.25 |      5 |
+| Jimeng          |           57.86 |      6 |
+| Hunyuan         |           57.25 |      7 |
+| Gen3            |           55.72 |      8 |
+| Kling           |           55.57 |      9 |
+| ChatGLM         |           53.98 |     10 |
+| Genmo           |           53.78 |     11 |
+| Xunfei          |           53.46 |     12 |
+| Wan2.1          |           52.33 |     13 |
+| VideoCrafter2   |           51.07 |     14 |
+| Allegro         |           50.68 |     15 |
+| Pyramid         |           50.17 |     16 |
+| CogVideo        |           49.73 |     17 |
+| Animate         |           49.3  |     18 |
+| Lavie           |           48.22 |     19 |
+| Hotshot-XL      |           47.75 |     20 |
+| NOVA            |           47.18 |     21 |
+| Latte           |           46.73 |     22 |
+| Text2Video-Zero |           44.89 |     23 |
+| VideoCrafter1   |           44.67 |     24 |
+| ModelScope      |           43.73 |     25 |
+| Tune-A-Video    |           42.69 |     26 |
+| LVDM            |           42.2  |     27 |
+| LTX             |           41.28 |     28 |
+| ZeroScope       |           34.69 |     29 |
+| LWM             |           31.49 |     30 |
+</div>
+
+
+<p align="center">
+  <img width="1000" alt="model" src="https://github.com/user-attachments/assets/67b09453-2a50-4869-9843-4b1d089c8cf9" />
+</p>
+
 
 ## ⚙️ Installation
 
@@ -125,11 +165,6 @@ huggingface-cli download anonymousdb/LOVE-pretrain temporal.pth ./
 ```
 
 ---
-</div>
-
-<p align="center">
-  <img width="1000" alt="model" src="https://github.com/user-attachments/assets/67b09453-2a50-4869-9843-4b1d089c8cf9" />
-</p>
 
 
 
