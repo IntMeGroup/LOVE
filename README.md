@@ -7,7 +7,8 @@
       <a href="https://huggingface.co/datasets/anonymousdb/AIGVE-60K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green"></a>
    </div>
 </div>
-![Uploading bffad112ca8f7e02efd4e60a557b0f1.png…]()
+<img width="783" alt="LOVE" src="https://github.com/user-attachments/assets/20901a3b-68e8-4b65-89b1-acbe38ae7165" />
+
 
 ## AIGVE-60K Download
  <a href="https://huggingface.co/datasets/anonymousdb/AIGVE-60K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green"></a>
