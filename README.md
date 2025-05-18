@@ -37,72 +37,37 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 </p>
 
 
----
-| Model           |   Perception MOS |   Rank |
-|:----------------|----------------:|-------:|
-| Jimeng          |           65.25 |      1 |
-| Pixverse        |           63.81 |      2 |
-| Sora            |           62.09 |      3 |
-| Hailuo          |           60.58 |      4 |
-| Kling           |           60.56 |      5 |
-| Wanxiang        |           60.54 |      6 |
-| Gen3            |           59.22 |      7 |
-| Hunyuan         |           58.81 |      8 |
-| Xunfei          |           58.6  |      9 |
-| Genmo           |           57.66 |     10 |
-| Pyramid         |           57.45 |     11 |
-| Wan2.1          |           57.27 |     12 |
-| ChatGLM         |           56.39 |     13 |
-| Allegro         |           56.08 |     14 |
-| Vidu1.5         |           54.56 |     15 |
-| CogVideo X1.5   |           50.59 |     16 |
-| Animate         |           50.49 |     17 |
-| Lavie           |           49.3  |     18 |
-| VideoCrafter2   |           48.11 |     19 |
-| VideoCrafter1   |           44.12 |     20 |
-| Latte           |           43.81 |     21 |
-| Hotshot-XL      |           42.66 |     22 |
-| NOVA            |           41.18 |     23 |
-| Text2Video-Zero |           40.53 |     24 |
-| LTX             |           40.11 |     25 |
-| ModelScope      |           38    |     26 |
-| Tune-A-Video    |           35.41 |     27 |
-| LVDM            |           33.84 |     28 |
-| ZeroScope       |           30.08 |     29 |
-| LWM             |           27.39 |     30 |
-
-| Model           |   Correspondence MOS |   Rank |
-|:----------------|----------------:|-------:|
-| Wanxiang        |           60.37 |      1 |
-| Pixverse        |           59.97 |      2 |
-| Hailuo          |           59.74 |      3 |
-| Sora            |           59.68 |      4 |
-| Vidu1.5         |           58.25 |      5 |
-| Jimeng          |           57.86 |      6 |
-| Hunyuan         |           57.25 |      7 |
-| Gen3            |           55.72 |      8 |
-| Kling           |           55.57 |      9 |
-| ChatGLM         |           53.98 |     10 |
-| Genmo           |           53.78 |     11 |
-| Xunfei          |           53.46 |     12 |
-| Wan2.1          |           52.33 |     13 |
-| VideoCrafter2   |           51.07 |     14 |
-| Allegro         |           50.68 |     15 |
-| Pyramid         |           50.17 |     16 |
-| CogVideo        |           49.73 |     17 |
-| Animate         |           49.3  |     18 |
-| Lavie           |           48.22 |     19 |
-| Hotshot-XL      |           47.75 |     20 |
-| NOVA            |           47.18 |     21 |
-| Latte           |           46.73 |     22 |
-| Text2Video-Zero |           44.89 |     23 |
-| VideoCrafter1   |           44.67 |     24 |
-| ModelScope      |           43.73 |     25 |
-| Tune-A-Video    |           42.69 |     26 |
-| LVDM            |           42.2  |     27 |
-| LTX             |           41.28 |     28 |
-| ZeroScope       |           34.69 |     29 |
-| LWM             |           31.49 |     30 |
+| Model           |   Perception |   Correspondence |   TaskAccuracy |
+|:----------------|-------------:|-----------------:|---------------:|
+| Jimeng          |        65.25 |            57.86 |          81.33 |
+| Pixverse        |        63.81 |            59.97 |          91.33 |
+| Sora            |        62.09 |            59.68 |          85.67 |
+| Hailuo          |        60.58 |            59.74 |          87.67 |
+| Kling           |        60.56 |            55.57 |          73.67 |
+| Wanxiang        |        60.54 |            60.37 |          90.33 |
+| Gen3            |        59.22 |            55.72 |          75.33 |
+| Hunyuan         |        58.81 |            57.25 |          79.67 |
+| Xunfei          |        58.6  |            53.46 |          66.33 |
+| Genmo           |        57.66 |            53.78 |          75.67 |
+| Pyramid         |        57.45 |            50.17 |          63.67 |
+| Wan2.1          |        57.27 |            52.33 |          62.67 |
+| ChatGLM         |        56.39 |            53.98 |          74    |
+| Allegro         |        56.08 |            50.68 |          63    |
+| Vidu1.5         |        54.56 |            58.25 |          87    |
+| Animate         |        50.49 |            49.3  |          60.67 |
+| Lavie           |        49.3  |            48.22 |          55    |
+| VideoCrafter2   |        48.11 |            51.07 |          65.67 |
+| VideoCrafter1   |        44.12 |            44.67 |          46    |
+| Latte           |        43.81 |            46.73 |          54.33 |
+| Hotshot-XL      |        42.66 |            47.75 |          57.67 |
+| NOVA            |        41.18 |            47.18 |          56    |
+| Text2Video-Zero |        40.53 |            44.89 |          48.67 |
+| LTX             |        40.11 |            41.28 |          37    |
+| ModelScope      |        38    |            43.73 |          47.33 |
+| Tune-A-Video    |        35.41 |            42.69 |          43    |
+| LVDM            |        33.84 |            42.2  |          40.33 |
+| ZeroScope       |        30.08 |            34.69 |          22    |
+| LWM             |        27.39 |            31.49 |           9    |
 </div>
 
 
