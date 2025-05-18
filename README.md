@@ -20,6 +20,7 @@
 
 ---
 
+
 ## 🤗 AIGVE-60K Download
 
 [![🤗 Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green)](https://huggingface.co/datasets/anonymousdb/AIGVE-60K)
@@ -37,6 +38,38 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 
 
 ---
+| Model           |   Overall Score |   Rank |
+|:----------------|----------------:|-------:|
+| Jimeng          |           65.25 |      1 |
+| Pixverse        |           63.81 |      2 |
+| Sora            |           62.09 |      3 |
+| Hailuo          |           60.58 |      4 |
+| Kling           |           60.56 |      5 |
+| Wanxiang        |           60.54 |      6 |
+| Gen3            |           59.22 |      7 |
+| Hunyuan         |           58.81 |      8 |
+| Xunfei          |           58.6  |      9 |
+| Genmo           |           57.66 |     10 |
+| Pyramid         |           57.45 |     11 |
+| Wan2.1          |           57.27 |     12 |
+| ChatGLM         |           56.39 |     13 |
+| Allegro         |           56.08 |     14 |
+| Vidu1.5         |           54.56 |     15 |
+| CogVideo X1.5   |           50.59 |     16 |
+| Animate         |           50.49 |     17 |
+| Lavie           |           49.3  |     18 |
+| VideoCrafter2   |           48.11 |     19 |
+| VideoCrafter1   |           44.12 |     20 |
+| Latte           |           43.81 |     21 |
+| Hotshot-XL      |           42.66 |     22 |
+| NOVA            |           41.18 |     23 |
+| Text2Video-Zero |           40.53 |     24 |
+| LTX             |           40.11 |     25 |
+| ModelScope      |           38    |     26 |
+| Tune-A-Video    |           35.41 |     27 |
+| LVDM            |           33.84 |     28 |
+| ZeroScope       |           30.08 |     29 |
+| LWM             |           27.39 |     30 |
 
 ## ⚙️ Installation
 
