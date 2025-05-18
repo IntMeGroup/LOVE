@@ -295,7 +295,7 @@ videobench.m
 
 ---
 
-| 🏆 Rank | Model | Perception SRCC | 🧠 Rank | Correspondence SRCC | 🔗 Rank | QA Accuracy (%) | ✅ Rank |
+| 🏆 Rank | Model | Perception SRCC | 🔗 Rank | Correspondence SRCC | 🔗 Rank | QA Accuracy (%) | 🔗 Rank |
 |--------|--------|------------------|--------|----------------------|--------|------------------|--------|
 | 🥇 1 | **LOVE** | 0.7932 | 1 | 0.7466 | 1 | 78.69 | 1 |
 | 🥈 2 | **InternVL2.5 (38B)** | 0.6227 | 6 | 0.647 | 4 | 75.81 | 3 |
@@ -345,8 +345,6 @@ videobench.m
 | 46 | Llama3.2-Vision (11B) | 0.094 | 46 | 0.0804 | 46 | 62.19 | 39 |
 | 47 | DeepseekVL2 (1B) | 0.0121 | 47 | 0.0173 | 47 | 39.29 | 47 |
 
-
-![image](https://github.com/user-attachments/assets/23462263-d4dd-406c-9366-d9572670785d)
 
 ## ⭐ Acknowledgements
 
