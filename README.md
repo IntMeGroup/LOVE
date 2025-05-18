@@ -29,6 +29,12 @@ Download with CLI:
 ```bash
 huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir ./AIGVE-60K
 ```
+</div>
+
+<p align="center">
+  <img width="1000" alt="LOVEe" src="https://github.com/user-attachments/assets/00a8e408-4480-4f93-9a24-d12db6b2d3da" />
+</p>
+
 
 ---
 
@@ -86,10 +92,15 @@ huggingface-cli download anonymousdb/LOVE-pretrain temporal.pth ./
 ```
 
 ---
+</div>
+
+<p align="center">
+  <img width="1000" alt="model" src="https://github.com/user-attachments/assets/67b09453-2a50-4869-9843-4b1d089c8cf9" />
+</p>
+
+
 
 ## 🚀 Training
-
-
 
 
 ### 📈 Stage 1: Text-based quality training
@@ -190,7 +201,7 @@ This section lists 30 representative T2V generation models, including both **com
 
 ---
 
-*Note: \textsuperscript{$\dag$} indicates representative values (e.g., resolution, frame rate) that are optional or variable depending on the use case.*
+
 
 
 
