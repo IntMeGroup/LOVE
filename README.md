@@ -91,7 +91,7 @@ This repository provides a comprehensive list of ** Vision-to-Text (V2T) interpr
 ---
 
 ## 🧭 Categories
-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Hugging Face" width="27"/> Conventional VQA Metrics
+- <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Hugging Face" width="22"/> Conventional VQA Metrics
 - ♣️ Classical VQA Models  
 - ❤️ Learning-based Scoring Models  
 - ⭐ Large Multimodal Models (LMMs)  
@@ -140,22 +140,6 @@ videobench.m
 
 ---
 
-## 📌 Citation Notice
-
-If you use this list or part of the benchmark in your research, please consider citing the original papers listed above.
-
----
-
-## 🔧 Contributions
-
-If you'd like to contribute a new model, open an issue or submit a pull request with:
-
-- Model name
-- URL (GitHub or official site)
-- Paper reference (if available)
-- Category suggestion
-
----
 
 ## ⭐ Acknowledgements
 
