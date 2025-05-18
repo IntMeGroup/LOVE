@@ -37,41 +37,41 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 </p>
 
 
-|   Overall Rank | Model           |   Perception |   Perception Rank |   Correspondence |   Correspondence Rank |   TaskAccuracy |   TaskAccuracy Rank |
-|---------------:|:----------------|-------------:|------------------:|-----------------:|----------------------:|---------------:|--------------------:|
-|              1 | Pixverse        |        63.81 |                 2 |            59.97 |                     2 |          91.33 |                   1 |
-|              2 | Wanxiang        |        60.54 |                 7 |            60.37 |                     1 |          90.33 |                   2 |
-|              3 | Hailuo          |        60.58 |                 5 |            59.74 |                     3 |          87.67 |                   3 |
-|              4 | Jimeng          |        65.25 |                 1 |            57.86 |                     6 |          81.33 |                   6 |
-|              4 | Sora            |        62.09 |                 4 |            59.68 |                     4 |          85.67 |                   5 |
-|              6 | Hunyuan         |        58.81 |                 9 |            57.25 |                     7 |          79.67 |                   7 |
-|              7 | Vidu1.5         |        54.56 |                15 |            58.25 |                     5 |          87    |                   4 |
-|              8 | Gen3            |        59.22 |                 8 |            55.72 |                     8 |          75.33 |                   9 |
-|              9 | Kling           |        60.56 |                 6 |            55.57 |                     9 |          73.67 |                  11 |
-|             10 | Genmo           |        57.66 |                11 |            53.78 |                    11 |          75.67 |                   8 |
-|             11 | ChatGLM         |        56.39 |                13 |            53.98 |                    10 |          74    |                  10 |
-|             12 | Xunfei          |        58.6  |                10 |            53.46 |                    12 |          66.33 |                  12 |
-|             13 | Pyramid         |        63.67 |                 3 |            50.17 |                    16 |          50.17 |                  22 |
-|             14 | Wan2.1          |        57.27 |                12 |            52.33 |                    13 |          62.67 |                  16 |
-|             15 | Allegro         |        56.08 |                14 |            50.7  |                    15 |          63    |                  15 |
-|             16 | VideoCrafter2   |        48.11 |                19 |            51.07 |                    14 |          65.67 |                  13 |
-|             17 | CogVideo X1.5   |        50.59 |                16 |            49.73 |                    17 |          64.67 |                  14 |
-|             18 | Animate         |        50.48 |                17 |            49.3  |                    18 |          60.67 |                  17 |
-|             19 | Lavie           |        49.3  |                18 |            48.22 |                    19 |          55    |                  20 |
-|             20 | Hotshot-XL      |        42.66 |                22 |            47.75 |                    20 |          57.67 |                  18 |
-|             21 | Latte           |        43.81 |                21 |            46.73 |                    22 |          54.33 |                  21 |
-|             22 | VideoCrafter1   |        44.12 |                20 |            44.67 |                    24 |          46    |                  25 |
-|             23 | Text2Video-Zero |        40.53 |                24 |            44.89 |                    23 |          48.67 |                  23 |
-|             24 | NOVA            |        41.18 |                23 |            47.18 |                    21 |          56    |                  19 |
-|             25 | ModelScope      |        38    |                26 |            43.73 |                    25 |          47.33 |                  24 |
-|             26 | Tune-A-Video    |        35.41 |                27 |            42.69 |                    26 |          43    |                  26 |
-|             27 | LTX             |        40.11 |                25 |            41.28 |                    28 |          37    |                  28 |
-|             28 | LVDM            |        33.84 |                28 |            42.2  |                    27 |          40.33 |                  27 |
-|             29 | ZeroScope       |        30.08 |                29 |            34.69 |                    29 |          22    |                  29 |
-|             30 | LWM             |        27.39 |                30 |            31.49 |                    30 |           9    |                  30 |
+|   Overall Rank | Model                                                                           |   Perception |   Perception Rank |   Correspondence |   Correspondence Rank |   TaskAccuracy |   TaskAccuracy Rank |
+|---------------:|:--------------------------------------------------------------------------------|-------------:|------------------:|-----------------:|----------------------:|---------------:|--------------------:|
+|              1 | 🥇 [Pixverse](https://pixverse.ai/)                                             |        63.81 |                 2 |            59.97 |                     2 |          91.33 |                   1 |
+|              2 | 🥈 [Wanxiang](https://tongyi.aliyun.com/wanxiang/)                              |        60.54 |                 7 |            60.37 |                     1 |          90.33 |                   2 |
+|              3 | 🥉 [Hailuo](https://hailuoai.video/)                                            |        60.58 |                 5 |            59.74 |                     3 |          87.67 |                   3 |
+|              4 | [Jimeng](https://jimeng.jianying.com/)                                          |        65.25 |                 1 |            57.86 |                     6 |          81.33 |                   6 |
+|              5 | [Sora](https://openai.com/research/video-generation-models-as-world-simulators) |        62.09 |                 4 |            59.68 |                     4 |          85.67 |                   5 |
+|              6 | [Hunyuan](https://aivideo.hunyuan.tencent.com/)                                 |        58.81 |                 9 |            57.25 |                     7 |          79.67 |                   7 |
+|              7 | [Vidu1.5](https://www.vidu.studio/zh)                                           |        54.56 |                15 |            58.25 |                     5 |          87    |                   4 |
+|              8 | [Gen3](https://runwayml.com/research/introducing-gen-3-alpha)                   |        59.22 |                 8 |            55.72 |                     8 |          75.33 |                   9 |
+|              9 | [Kling](https://klingai.io/)                                                    |        60.56 |                 6 |            55.57 |                     9 |          73.67 |                  11 |
+|             10 | [Genmo](https://www.genmo.ai)                                                   |        57.66 |                11 |            53.78 |                    11 |          75.67 |                   8 |
+|             11 | [ChatGLM](https://chatglm.cn/video?lang=zh)                                     |        56.39 |                13 |            53.98 |                    10 |          74    |                  10 |
+|             12 | [Xunfei](https://typemovie.art/)                                                |        58.6  |                10 |            53.46 |                    12 |          66.33 |                  12 |
+|             13 | [Pyramid](https://github.com/jy0205/Pyramid-Flow)                               |        63.67 |                 3 |            50.17 |                    16 |          50.17 |                  22 |
+|             14 | [Wan2.1](https://github.com/FoundationVision/LlamaGen)                          |        57.27 |                12 |            52.33 |                    13 |          62.67 |                  16 |
+|             15 | [Allegro](https://github.com/rhymes-ai/Allegro)                                 |        56.08 |                14 |            50.7  |                    15 |          63    |                  15 |
+|             16 | [VideoCrafter2](https://github.com/AILab-CVC/VideoCrafter)                      |        48.11 |                19 |            51.07 |                    14 |          65.67 |                  13 |
+|             17 | [CogVideo X1.5](https://github.com/THUDM/CogVideo)                              |        50.59 |                16 |            49.73 |                    17 |          64.67 |                  14 |
+|             18 | [Animate](https://github.com/aigc-apps/EasyAnimate)                             |        50.48 |                17 |            49.3  |                    18 |          60.67 |                  17 |
+|             19 | [Lavie](https://github.com/Vchitect/LaVie)                                      |        49.3  |                18 |            48.22 |                    19 |          55    |                  20 |
+|             20 | [Hotshot-XL](https://github.com/hotshotco/Hotshot-XL)                           |        42.66 |                22 |            47.75 |                    20 |          57.67 |                  18 |
+|             21 | [Latte](https://github.com/Vchitect/Latte)                                      |        43.81 |                21 |            46.73 |                    22 |          54.33 |                  21 |
+|             22 | [VideoCrafter1](https://github.com/AILab-CVC/VideoCrafter)                      |        44.12 |                20 |            44.67 |                    24 |          46    |                  25 |
+|             23 | [Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero)       |        40.53 |                24 |            44.89 |                    23 |          48.67 |                  23 |
+|             24 | [NOVA](https://github.com/baaivision/NOVA)                                      |        41.18 |                23 |            47.18 |                    21 |          56    |                  19 |
+|             25 | [ModelScope](https://github.com/modelscope/modelscope)                          |        38    |                26 |            43.73 |                    25 |          47.33 |                  24 |
+|             26 | [Tune-A-Video](https://github.com/showlab/Tune-A-Video)                         |        35.41 |                27 |            42.69 |                    26 |          43    |                  26 |
+|             27 | [LTX](https://github.com/Lightricks/LTX-Video)                                  |        40.11 |                25 |            41.28 |                    28 |          37    |                  28 |
+|             28 | [LVDM](https://github.com/YingqingHe/LVDM)                                      |        33.84 |                28 |            42.2  |                    27 |          40.33 |                  27 |
+|             29 | [ZeroScope](https://huggingface.co/cerspense/zeroscope_v2_XL)                   |        30.08 |                29 |            34.69 |                    29 |          22    |                  29 |
+|             30 | [LWM](https://github.com/LargeWorldModel/LWM)                                   |        27.39 |                30 |            31.49 |                    30 |           9    |                  30 |
 </div>
 
-
+# ❤️ LOVE Metric -- **L**MM f**o**r **V**ideo **E**valuation
 <p align="center">
   <img width="1000" alt="model" src="https://github.com/user-attachments/assets/67b09453-2a50-4869-9843-4b1d089c8cf9" />
 </p>
