@@ -115,7 +115,7 @@ sh shell/eval_score.sh
 
 ### ❓ Evaluate question-answering
 
-[LOVE-QA](https://huggingface.co/anonymousdb/LOVE-QA)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Correspondence-green)](https://huggingface.co/anonymousdb/LOVE-QA)
 
 ```bash
 sh shell/eval_qa.sh
