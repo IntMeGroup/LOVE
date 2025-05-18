@@ -1,4 +1,4 @@
-# ❤️ LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation
+<div align="center"> # ❤️ LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation
 
 <div align="center">
 
@@ -107,7 +107,7 @@ huggingface-cli download anonymousdb/LOVE-QA --local-dir ./weights/qa
 ### 📈 Evaluate perception & correspondence scores
 
 [![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Perception-orange)](https://huggingface.co/anonymousdb/LOVE-Perception)  
-[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Correspondence-blue)](https://huggingface.co/anonymousdb/LOVE-Correspondence)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Correspondence-yellow)](https://huggingface.co/anonymousdb/LOVE-Correspondence)
 
 ```bash
 sh shell/eval_score.sh
@@ -115,7 +115,7 @@ sh shell/eval_score.sh
 
 ### ❓ Evaluate question-answering
 
-[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Correspondence-green)](https://huggingface.co/anonymousdb/LOVE-QA)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--QA-blue)](https://huggingface.co/anonymousdb/LOVE-QA)
 
 ```bash
 sh shell/eval_qa.sh
