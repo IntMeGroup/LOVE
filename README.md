@@ -83,7 +83,11 @@ for [quastion-answering](https://huggingface.co/anonymousdb/LOVE-QA) evaluation 
 sh shell/eval_qa.sh
 ```
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Hugging Face" width="27"/> Conventional VQA Metrics
-
+**BMPRI, BPRI, BRISQUE, HOSA, NIQE, QAC**
+run
+```
+videobench.m
+```
 
 ## 📌 TODO
 - ✅ Release the training code 
