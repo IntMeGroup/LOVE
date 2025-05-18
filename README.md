@@ -82,6 +82,22 @@ for [quastion-answering](https://huggingface.co/anonymousdb/LOVE-QA) evaluation 
 ```
 sh shell/eval_qa.sh
 ```
+
+
+# 📊 V2T Interpretation Model Collection
+
+This repository provides a comprehensive list of ** Vision-to-Text (V2T) interpretation models**, covering conventional video quality assessment models, learning-based image-text alignment models, large multimodal models (LMMs), and proprietary foundation models. Each method is annotated with its category and accompanied by a corresponding GitHub or official URL.
+
+---
+
+## 🧭 Categories
+- <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Hugging Face" width="27"/> Conventional VQA Metrics
+- ♣️ Classical VQA Models  
+- ❤️ Learning-based Scoring Models  
+- ⭐ Large Multimodal Models (LMMs)  
+- 🔺 Proprietary Foundation Models (Closed-source)
+
+---
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Hugging Face" width="27"/> Conventional VQA Metrics
 For
 **BMPRI, BPRI, BRISQUE, HOSA, NIQE, QAC**
@@ -89,20 +105,6 @@ run:
 ```
 videobench.m
 ```
-# 📊 V2T Interpretation Model Collection
-
-This repository provides a comprehensive list of **30 Vision-to-Text (V2T) interpretation models**, covering traditional video quality assessment models, learning-based image-text alignment models, large multimodal models (LMMs), and proprietary foundation models. Each method is annotated with its category and accompanied by a corresponding GitHub or official URL.
-
----
-
-## 🧭 Categories
-
-- ♣️ Classical VQA Models  
-- ❤️ Learning-based Scoring Models  
-- ⭐ Large Multimodal Models (LMMs)  
-- 🔺 Proprietary Foundation Models (Closed-source)
-
----
 
 ## 📚 Model List and URLs
 
