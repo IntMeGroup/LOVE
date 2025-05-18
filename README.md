@@ -35,8 +35,8 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 <p align="center">
   <img width="1000" alt="LOVEe" src="https://github.com/user-attachments/assets/00a8e408-4480-4f93-9a24-d12db6b2d3da" />
 </p>
-
- 🏆 T2V Generation Model Leaderboard 
+---
+## 🏆 T2V Generation Model Leaderboard 
 
 This leaderboard presents the performance of 30 models on the **AIGVE-60K** benchmark, evaluating across three key dimensions:  
 - **Perception Quality** 
@@ -77,65 +77,7 @@ Final **Overall Rank** is computed by summing the individual ranks across these 
 |             29 | [ZeroScope](https://huggingface.co/cerspense/zeroscope_v2_XL)                   |        30.08 |                29 |            34.69 |                    29 |          22    |                  29 |
 |             30 | [LWM](https://github.com/LargeWorldModel/LWM)                                   |        27.39 |                30 |            31.49 |                    30 |           9    |                  30 |
 
- 🏆 V2T Model Leaderboard (48 Models)
 
-This leaderboard presents the performance of 48 models on the **AIGVE-60K** benchmark, evaluating across three key dimensions:  
-- **Perception Quality** (Instance-level SRCC)  
-- **Text-to-Video Correspondence** (Instance-level SRCC)  
-- **Question Answering Accuracy**
-
-Final **Overall Rank** is computed by summing the individual ranks across these three dimensions.
-
-| 🏆 Rank | Method | Perception SRCC | 🔗 Rank | Correspondence SRCC | 🔗 Rank | QA Acc (%) | 🔗 Rank |
-|------|--------|------------------|------|----------------------|------|-------------|------|
-| 🥇 | **LOVE** | 0.7932 | 1 | 0.7466 | 1 | 78.69 | 1 |
-| 🥈 | **InternVL3 (9B)** | 0.6421 | 3 | 0.5965 | 5 | 78.36 | 2 |
-| 🥉 | **Qwen2.5-VL (7B)** | 0.7868 | 2 | 0.7354 | 2 | 77.35 | 3 |
-| 4 | **InternVL2.5 (72B)** | 0.5383 | 8 | 0.6612 | 7 | 75.18 | 5 |
-| 5 | **Grok2 Vision** | 0.5628 | 5 | 0.6659 | 6 | 76.51 | 4 |
-| 6 | **ChatGPT-4o** | 0.5263 | 9 | 0.6639 | 8 | 74.84 | 6 |
-| 7 | **InternVL3 (72B)** | 0.5441 | 7 | 0.6314 | 9 | 74.59 | 7 |
-| 8 | **InternVL2.5 (38B)** | 0.6227 | 4 | 0.6470 | 8 | 75.81 | 5 |
-| 9 | **Gemini1.5-pro** | 0.4972 | 10 | 0.6095 | 10 | 73.38 | 8 |
-| 10 | **Claude3.5** | 0.4267 | 13 | 0.5827 | 11 | 73.20 | 9 |
-| 11 | **Qwen2.5-VL (72B)** | 0.4245 | 14 | 0.6272 | 10 | 73.83 | 10 |
-| 12 | **InternVL3 (38B)** | 0.4950 | 11 | 0.5996 | 12 | 73.89 | 9 |
-| 13 | **Llava-one-vision (72B)** | 0.5291 | 6 | 0.5702 | 13 | 73.31 | 11 |
-| 14 | **Qwen2-VL (72B)** | 0.4628 | 12 | 0.5598 | 14 | 73.12 | 12 |
-| 15 | **InternVL3 (9B)** | 0.2731 | 24 | 0.4768 | 20 | 65.82 | 19 |
-| 16 | **InternVL2.5 (8B)** | 0.2799 | 22 | 0.4856 | 19 | 66.30 | 18 |
-| 17 | **VideoLLaMA3** | 0.3922 | 16 | 0.4228 | 23 | 70.16 | 14 |
-| 18 | **InternVideo2.5 (8B)** | 0.1563 | 37 | 0.4978 | 17 | 70.64 | 13 |
-| 19 | **LLaVA-NeXT** | 0.4888 | 12 | 0.2847 | 30 | 70.21 | 15 |
-| 20 | **Qwen2-VL (7B)** | 0.3568 | 18 | 0.4498 | 21 | 71.56 | 11 |
-| 21 | **HPSv2** | 0.5415 | 7 | 0.4989 | 16 | 67.68 | 17 |
-| 22 | **FGA-BLIP2** | 0.5181 | 8 | 0.5962 | 5 | 67.06 | 20 |
-| 23 | **ImageReward** | 0.4180 | 15 | 0.5076 | 15 | 68.33 | 16 |
-| 24 | **CogAgent** | 0.1244 | 40 | 0.1190 | 39 | 65.32 | 21 |
-| 25 | **mPLUG-Owl3 (7B)** | 0.3532 | 19 | 0.5478 | 18 | 63.02 | 23 |
-| 26 | **PickScore** | 0.4026 | 17 | 0.4135 | 24 | 62.29 | 25 |
-| 27 | **VideoLlava (7B)** | 0.1809 | 33 | 0.2005 | 33 | 68.46 | 16 |
-| 28 | **AestheticScore** | 0.5524 | 6 | 0.3931 | 26 | 64.87 | 22 |
-| 29 | **SimpleVQA** | 0.5631 | 5 | 0.3474 | 27 | 60.78 | 26 |
-| 30 | **FAST-VQA** | 0.6391 | 2 | 0.3919 | 28 | 66.27 | 17 |
-| 31 | **DOVER** | 0.6414 | 1 | 0.3759 | 29 | 62.61 | 24 |
-| 32 | **VSFA** | 0.3750 | 20 | 0.2438 | 32 | 57.09 | 29 |
-| 33 | **BVQA** | 0.3089 | 23 | 0.2379 | 34 | 58.47 | 27 |
-| 34 | **CLIPScore** | 0.0947 | 43 | 0.2290 | 35 | 58.27 | 28 |
-| 35 | **BLIPScore** | 0.1884 | 32 | 0.3163 | 31 | 63.93 | 22 |
-| 36 | **VQAScore** | 0.1677 | 34 | 0.1763 | 37 | 52.97 | 31 |
-| 37 | **QAC** | 0.5958 | 4 | 0.3948 | 25 | 64.40 | 30 |
-| 38 | **BRISQUE** | 0.5843 | 3 | 0.3806 | 30 | 64.67 | 26 |
-| 39 | **HOSA** | 0.6474 | 1 | 0.4153 | 22 | 64.34 | 27 |
-| 40 | **NIQE** | 0.6536 | 1 | 0.4345 | 19 | 62.21 | 32 |
-| 41 | **BMPRI** | 0.5741 | 4 | 0.3618 | 31 | 64.00 | 28 |
-| 42 | **BPRI** | 0.3558 | 21 | 0.2018 | 32 | 63.56 | 30 |
-| 43 | **V-Aesthetic Quality** | 0.5031 | 9 | 0.4033 | 26 | 64.54 | 29 |
-| 44 | **V-Imaging Quality** | 0.2810 | 25 | 0.1952 | 36 | 60.60 | 33 |
-| 45 | **V-Temporal Flickering** | 0.4076 | 16 | 0.1958 | 35 | 63.69 | 30 |
-| 46 | **V-Subject Consistency** | 0.3443 | 20 | 0.1647 | 38 | 62.52 | 33 |
-| 47 | **V-Overall Consistency** | 0.1559 | 35 | 0.3076 | 30 | 61.96 | 34 |
-| 48 | **DeepseekVL2 (1B)** | 0.0121 | 48 | 0.0173 | 48 | 39.29 | 48 |
 </div>
 
 # ❤️ LOVE Metric -- <u>L</u>MM f<u>o</u>r <u>V</u>ideo <u>E</u>valuation
@@ -250,6 +192,65 @@ sh shell/eval_score.sh
 ```bash
 sh shell/eval_qa.sh
 ```
+## 🏆 V2T Interpretation Model Leaderboard 
+
+This leaderboard presents the performance of 48 models on the **AIGVE-60K** benchmark, evaluating across three key dimensions:  
+- **Perception Quality** (Instance-level SRCC)  
+- **Text-to-Video Correspondence** (Instance-level SRCC)  
+- **Question Answering Accuracy**
+
+Final **Overall Rank** is computed by summing the individual ranks across these three dimensions.
+
+| 🏆 Rank | Method | Perception SRCC | 🔗 Rank | Correspondence SRCC | 🔗 Rank | QA Acc (%) | 🔗 Rank |
+|------|--------|------------------|------|----------------------|------|-------------|------|
+| 🥇 | **LOVE** | 0.7932 | 1 | 0.7466 | 1 | 78.69 | 1 |
+| 🥈 | **InternVL3 (9B)** | 0.6421 | 3 | 0.5965 | 5 | 78.36 | 2 |
+| 🥉 | **Qwen2.5-VL (7B)** | 0.7868 | 2 | 0.7354 | 2 | 77.35 | 3 |
+| 4 | **InternVL2.5 (72B)** | 0.5383 | 8 | 0.6612 | 7 | 75.18 | 5 |
+| 5 | **Grok2 Vision** | 0.5628 | 5 | 0.6659 | 6 | 76.51 | 4 |
+| 6 | **ChatGPT-4o** | 0.5263 | 9 | 0.6639 | 8 | 74.84 | 6 |
+| 7 | **InternVL3 (72B)** | 0.5441 | 7 | 0.6314 | 9 | 74.59 | 7 |
+| 8 | **InternVL2.5 (38B)** | 0.6227 | 4 | 0.6470 | 8 | 75.81 | 5 |
+| 9 | **Gemini1.5-pro** | 0.4972 | 10 | 0.6095 | 10 | 73.38 | 8 |
+| 10 | **Claude3.5** | 0.4267 | 13 | 0.5827 | 11 | 73.20 | 9 |
+| 11 | **Qwen2.5-VL (72B)** | 0.4245 | 14 | 0.6272 | 10 | 73.83 | 10 |
+| 12 | **InternVL3 (38B)** | 0.4950 | 11 | 0.5996 | 12 | 73.89 | 9 |
+| 13 | **Llava-one-vision (72B)** | 0.5291 | 6 | 0.5702 | 13 | 73.31 | 11 |
+| 14 | **Qwen2-VL (72B)** | 0.4628 | 12 | 0.5598 | 14 | 73.12 | 12 |
+| 15 | **InternVL3 (9B)** | 0.2731 | 24 | 0.4768 | 20 | 65.82 | 19 |
+| 16 | **InternVL2.5 (8B)** | 0.2799 | 22 | 0.4856 | 19 | 66.30 | 18 |
+| 17 | **VideoLLaMA3** | 0.3922 | 16 | 0.4228 | 23 | 70.16 | 14 |
+| 18 | **InternVideo2.5 (8B)** | 0.1563 | 37 | 0.4978 | 17 | 70.64 | 13 |
+| 19 | **LLaVA-NeXT** | 0.4888 | 12 | 0.2847 | 30 | 70.21 | 15 |
+| 20 | **Qwen2-VL (7B)** | 0.3568 | 18 | 0.4498 | 21 | 71.56 | 11 |
+| 21 | **HPSv2** | 0.5415 | 7 | 0.4989 | 16 | 67.68 | 17 |
+| 22 | **FGA-BLIP2** | 0.5181 | 8 | 0.5962 | 5 | 67.06 | 20 |
+| 23 | **ImageReward** | 0.4180 | 15 | 0.5076 | 15 | 68.33 | 16 |
+| 24 | **CogAgent** | 0.1244 | 40 | 0.1190 | 39 | 65.32 | 21 |
+| 25 | **mPLUG-Owl3 (7B)** | 0.3532 | 19 | 0.5478 | 18 | 63.02 | 23 |
+| 26 | **PickScore** | 0.4026 | 17 | 0.4135 | 24 | 62.29 | 25 |
+| 27 | **VideoLlava (7B)** | 0.1809 | 33 | 0.2005 | 33 | 68.46 | 16 |
+| 28 | **AestheticScore** | 0.5524 | 6 | 0.3931 | 26 | 64.87 | 22 |
+| 29 | **SimpleVQA** | 0.5631 | 5 | 0.3474 | 27 | 60.78 | 26 |
+| 30 | **FAST-VQA** | 0.6391 | 2 | 0.3919 | 28 | 66.27 | 17 |
+| 31 | **DOVER** | 0.6414 | 1 | 0.3759 | 29 | 62.61 | 24 |
+| 32 | **VSFA** | 0.3750 | 20 | 0.2438 | 32 | 57.09 | 29 |
+| 33 | **BVQA** | 0.3089 | 23 | 0.2379 | 34 | 58.47 | 27 |
+| 34 | **CLIPScore** | 0.0947 | 43 | 0.2290 | 35 | 58.27 | 28 |
+| 35 | **BLIPScore** | 0.1884 | 32 | 0.3163 | 31 | 63.93 | 22 |
+| 36 | **VQAScore** | 0.1677 | 34 | 0.1763 | 37 | 52.97 | 31 |
+| 37 | **QAC** | 0.5958 | 4 | 0.3948 | 25 | 64.40 | 30 |
+| 38 | **BRISQUE** | 0.5843 | 3 | 0.3806 | 30 | 64.67 | 26 |
+| 39 | **HOSA** | 0.6474 | 1 | 0.4153 | 22 | 64.34 | 27 |
+| 40 | **NIQE** | 0.6536 | 1 | 0.4345 | 19 | 62.21 | 32 |
+| 41 | **BMPRI** | 0.5741 | 4 | 0.3618 | 31 | 64.00 | 28 |
+| 42 | **BPRI** | 0.3558 | 21 | 0.2018 | 32 | 63.56 | 30 |
+| 43 | **V-Aesthetic Quality** | 0.5031 | 9 | 0.4033 | 26 | 64.54 | 29 |
+| 44 | **V-Imaging Quality** | 0.2810 | 25 | 0.1952 | 36 | 60.60 | 33 |
+| 45 | **V-Temporal Flickering** | 0.4076 | 16 | 0.1958 | 35 | 63.69 | 30 |
+| 46 | **V-Subject Consistency** | 0.3443 | 20 | 0.1647 | 38 | 62.52 | 33 |
+| 47 | **V-Overall Consistency** | 0.1559 | 35 | 0.3076 | 30 | 61.96 | 34 |
+| 48 | **DeepseekVL2 (1B)** | 0.0121 | 48 | 0.0173 | 48 | 39.29 | 48 |
 
 ---
 # 🎥 Text-to-Video (T2V) Generation Models
