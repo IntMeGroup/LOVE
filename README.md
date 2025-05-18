@@ -111,7 +111,7 @@ huggingface-cli download anonymousdb/LOVE-QA --local-dir ./weights/qa
 ### 📈 Evaluate perception & correspondence scores
 
 [![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Perception-orange)](https://huggingface.co/anonymousdb/LOVE-Perception)  
-[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Correspondence-yellow)](https://huggingface.co/anonymousdb/LOVE-Correspondence)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20LOVE--Correspondence-green)](https://huggingface.co/anonymousdb/LOVE-Correspondence)
 
 ```bash
 sh shell/eval_score.sh
@@ -239,7 +239,7 @@ videobench.m
 
 ## ⭐ Acknowledgements
 
-Thanks to the original authors of all the models listed here. This is a curated list intended to help researchers and developers in the **V2T interpretation** and **multimodal quality assessment** communities.
+Thanks to the original authors of all the models listed here. This is a curated list intended to help researchers and developers in the **T2V generation**,**V2T interpretation** and **multimodal quality assessment** communities.
 
 
 
