@@ -71,7 +71,7 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 |             30 | [LWM](https://github.com/LargeWorldModel/LWM)                                   |        27.39 |                30 |            31.49 |                    30 |           9    |                  30 |
 </div>
 
-# ❤️ LOVE Metric -- **L**MM f**o**r **V**ideo **E**valuation
+# ❤️ LOVE Metric -- <u>L</u>MM f<u>o</u>r <u>V</u>ideo <u>E</u>valuation
 <p align="center">
   <img width="1000" alt="model" src="https://github.com/user-attachments/assets/67b09453-2a50-4869-9843-4b1d089c8cf9" />
 </p>
