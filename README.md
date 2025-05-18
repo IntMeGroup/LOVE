@@ -112,7 +112,7 @@ sh shell/train_qa.sh
 
 ---
 
-## 🧪 Evaluation
+## 🚀 Evaluation
 
 ### 📦 Download pretrained weights
 
