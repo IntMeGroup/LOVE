@@ -46,9 +46,8 @@ This leaderboard presents the performance of 30 models on the **AIGVE-60K** benc
 
 Final **Overall Rank** is computed by summing the individual ranks across these three dimensions.
 The **top 3 models** are marked with 🥇🥈🥉. All model names are bolded for clarity.
-| 🏆 Overall Rank | Model | 🎨 Perception SRCC | 🔗 Rank | 🔄 Correspondence SRCC | 🔗 Rank | ❓ Task-specific Accuracy (%) | 🔗 Rank |
+| 🏆 Overall Rank | Model | 🎨 Perception MOS | 🔗 Rank | 🔄 Correspondence MOS | 🔗 Rank | ❓ Task-specific Accuracy (%) | 🔗 Rank |
 |----------------|-------|--------------------|--------|------------------------|--------|--------------------|--------|
-
 |              1 | 🥇 [Pixverse](https://pixverse.ai/)                                             |        63.81 |                 2 |            59.97 |                     2 |          91.33 |                   1 |
 |              2 | 🥈 [Wanxiang](https://tongyi.aliyun.com/wanxiang/)                              |        60.54 |                 7 |            60.37 |                     1 |          90.33 |                   2 |
 |              3 | 🥉 [Hailuo](https://hailuoai.video/)                                            |        60.58 |                 5 |            59.74 |                     3 |          87.67 |                   3 |
