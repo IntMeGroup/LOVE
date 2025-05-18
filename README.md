@@ -38,7 +38,7 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 
 
 ---
-| Model           |   Overall Score |   Rank |
+| Model           |   Perception Score |   Rank |
 |:----------------|----------------:|-------:|
 | Jimeng          |           65.25 |      1 |
 | Pixverse        |           63.81 |      2 |
