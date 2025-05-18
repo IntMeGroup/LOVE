@@ -1,4 +1,8 @@
-<div align="center"> # ❤️ LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation
+<div align="center">
+
+<h1>❤️ LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation</h1>
+
+</div>
 
 <div align="center">
 
