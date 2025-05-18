@@ -1,4 +1,4 @@
-div align="center">
+<div align="center">
 
 <h1>❤️ LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation</h1>
 
