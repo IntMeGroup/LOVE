@@ -35,7 +35,6 @@ huggingface-cli download anonymousdb/AIGVE-60K --repo-type dataset --local-dir .
 <p align="center">
   <img width="1000" alt="LOVEe" src="https://github.com/user-attachments/assets/00a8e408-4480-4f93-9a24-d12db6b2d3da" />
 </p>
----
 
 
 ## 🏆 T2V Generation Model Leaderboard 
