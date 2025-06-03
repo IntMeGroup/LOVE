@@ -19,7 +19,7 @@
 </p>
 
 ---
-
+If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:
 
 ## 🤗 AIGVE-60K Download
 
