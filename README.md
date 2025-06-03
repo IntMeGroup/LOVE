@@ -18,8 +18,9 @@
   <img width="1000" alt="LOVE" src="https://github.com/user-attachments/assets/20901a3b-68e8-4b65-89b1-acbe38ae7165" />
 </p>
 
+## If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:
 ---
-If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:
+
 
 ## 🤗 AIGVE-60K Download
 
