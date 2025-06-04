@@ -383,6 +383,14 @@ This repository provides a comprehensive list of ** Vision-to-Text (V2T) interpr
 - 🔺 Proprietary Foundation Models (Closed-source)
 
 ---
+
+## <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Hugging Face" width="27"/> For MOS Calculation
+run:
+```
+mos15.m
+```
+
+
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Hugging Face" width="27"/> Conventional VQA Metrics
 For
 **BMPRI, BPRI, BRISQUE, HOSA, NIQE, QAC**
