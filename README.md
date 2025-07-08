@@ -196,6 +196,42 @@ sh shell/eval_score.sh
 ```bash
 sh shell/eval_qa.sh
 ```
+
+## 🌈 Inference
+### 📦 Download the required model weights:
+```bash
+huggingface-cli download anonymousdb/LOVE-Perception --local-dir ./weights/stage2/stage2_mos1
+huggingface-cli download anonymousdb/LOVE-Correspondence --local-dir ./weights/stage2/stage2_mos2
+```
+### 📁 Prepare dataset
+1. Refine the /data/infer_perception.json file with the correct path:
+```bash 
+"root": your_path_to_videos
+```
+or infer selected videos in video_names.txt 
+2. Refine the /data/data/infer_perception2.json file with the correct path:
+```bash 
+"root": your_path_to_videos
+"video_name_txt": video_names.txt
+```
+and change the shell/infer_perception.sh line30 to data/infer_perception2.json
+3. Refine the /data/infer_correspondcence.json file with the correct path:
+```bash 
+"root": your_path_to_videos
+"video_name_txt": "video_names.txt",
+"prompt_txt": "prompt.txt",
+```
+### 🎮 Perception Score Inference 
+Refine the shell/infer_perception.sh line27 to your_download_model_pretrained_weight_path
+```
+sh shell/infer_perception.sh
+```
+### 🎮 Correspondence Score Inference 
+Refine the shell/infer_correspondence.sh line27 to your_download_model_pretrained_weight_path
+```
+sh shell/infer_correspondence.sh
+```
+
 # 🏆 V2T Interpretation Model Leaderboard 
 
 This leaderboard presents the performance of 48 models on the **AIGVE-60K** benchmark, evaluating across three key dimensions:  
