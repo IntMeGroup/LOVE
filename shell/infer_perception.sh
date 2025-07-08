@@ -24,7 +24,7 @@ torchrun \
   --nproc_per_node=${GPUS} \
   --master_port=${MASTER_PORT} \
   train/infer_perception.py \
-   --model_name_or_path "/media/amax/e1efc3d3-8977-4b90-9121-3f956ab56974/huiyu/wjr/wjr/AIGI_2025n/InternVL3-9B" \
+   --model_name_or_path "weights/mos1_st2" \
   --conv_style "internlm2-chat" \
   --output_dir ${OUTPUT_DIR} \
   --meta_path "data/infer_perception.json"\
