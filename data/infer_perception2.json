@@ -1,0 +1,8 @@
+{
+    "sharegpt4v_instruct_gpt4-vision_cap100k": {
+      "root": "/mnt/data/wjr/AIGV6K",
+      "video_name_txt": "video_names.txt",
+      "data_augment": false,
+      "repeat_time": 1
+    }
+}
