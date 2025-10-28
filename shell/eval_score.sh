@@ -24,7 +24,7 @@ torchrun \
   --nproc_per_node=${GPUS} \
   --master_port=${MASTER_PORT} \
   train/stage2_eval_AIGV.py \
-   --model_name_or_path "/dev/shm/wjr/AIGV60K_weights/mos${number}_st2_fast" \
+   --model_name_or_path "weights/mos${number}_st2" \
   --conv_style "internlm2-chat" \
   --output_dir ${OUTPUT_DIR} \
   --meta_path "data/video_train_mos${number}.json"\
